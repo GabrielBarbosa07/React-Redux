@@ -10,6 +10,7 @@ import * as Styles from "./styles";
 
 function Header() {
   const [cartIsVisible, setCartIsVisible] = useState(false);
+ 
 
   const handleCartClick = () => {
     setCartIsVisible(true);
