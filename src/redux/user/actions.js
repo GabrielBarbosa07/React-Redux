@@ -5,6 +5,10 @@ export const loginUser = (payload) => ({
   payload,
 });
 
+<<<<<<< HEAD
 export const logoutUser = () => ({
+=======
+export const logoutUser = (payload) => ({
+>>>>>>> starter
   type: UserActionTypes.LOGOUT,
 });
